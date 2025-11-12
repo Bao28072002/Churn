@@ -742,15 +742,13 @@ print(sil_score)
 <img width="555" height="425" alt="image" src="https://github.com/user-attachments/assets/e20d0b2e-9630-4134-b6bc-1397ea643315" />
 
 
-
 ### **💡Conclusion: **
-- **PCA does not retain the significant meaning of the data** (the sum of the explained variance ratio is too low).
-- When applying the **Elbow method**, no clear elbow points are visible.
-- **Our hypothesis** is that the data is **sporadic**, meaning there are no clear patterns between the data points, and therefore, clustering into distinct groups is challenging.
-- **Silhouette score is also low**, indicating that the clusters are not well-separated.
+* **PCA & Silhouette:** Low performance.
+* **Elbow:** No clear point.
+* **Root Cause:** Data is **sporadic** (no clear patterns).
 
 ### **💡Suggestions:**
-- **Use clustering methods that do not require a fixed number of clusters**. We suggest trying a **Hierarchical Clustering model**, which can provide better-defined clusters without the need to predefine the number of clusters.
+* **Suggestion:** Try **Hierarchical Clustering** (No need to predefine the number of clusters).
 
 **Step 5: Apply Dendrogram**
 
@@ -795,17 +793,12 @@ plt.show()
 
 <img width="458" height="336" alt="image" src="https://github.com/user-attachments/assets/3400a53a-21ec-4b85-a836-9551357e70f9" />
 
-
 Silhouette Score:  0.2644519772640823 -> **too low**
 
-## 7️⃣ **Recommendation for Clustering**
+## **Recommendation for Clustering**
 
-- **Gather more data on churned users**:  
-  - To improve the model, we can **collect additional data** on churned users, either by gathering real data from the business or by using our **supervised model to predict churn**. The predicted churn data can serve as ground truth for refining the clustering model.
-  
-- **Run promotions for churned users**:  
-  - **Offer promotions** to all users identified as churned, and **track the results**. These insights can be used as **additional features** in future models, helping to enhance the accuracy and effectiveness of churn prediction over time.
+* **Gather Churn Data:** **Collect real churn data** or use a **supervised model** to **predict churn**. This serves as **ground truth** to **refine the clustering model**.
+* **Run & Track Promotions:** **Offer promotions** to identified churned users. **Track results** to generate **additional features** for future models.
 
-These steps would help **improve data quality** and **increase the predictive power** of the model by incorporating real-world results and feedback.
-
+> **Goal:** **Improve data quality** and **increase the predictive power** of the model through real-world feedback.
 
