@@ -138,7 +138,8 @@ df.head(5)
 ```
 [Out 3]:
 
-<img width="1774" height="215" alt="image" src="https://github.com/user-attachments/assets/73ce54f8-7b42-442d-b532-72e39635a259" />
+<img width="1769" height="184" alt="image" src="https://github.com/user-attachments/assets/b1d766c1-fcf9-48e9-84da-38fe4e9aaf5a" />
+
 
 [In 4]:
 
@@ -147,7 +148,8 @@ df.info()
 ```
 [Out 4]:
 
-<img width="480" height="404" alt="image" src="https://github.com/user-attachments/assets/840e3bb5-b648-44ff-881e-a2644af47467" />
+<img width="401" height="360" alt="image" src="https://github.com/user-attachments/assets/df273207-3604-42c5-80d5-dff65982e9d8" />
+
 
 [In 5]:
 
@@ -158,7 +160,8 @@ print(missing_value)
 ```
 [Out 5]:
 
-<img width="323" height="318" alt="image" src="https://github.com/user-attachments/assets/d935cf53-53b4-40da-9cc1-c386837575c4" />
+<img width="218" height="280" alt="image" src="https://github.com/user-attachments/assets/be7979cb-88b6-428e-bf2c-0555118b0803" />
+
 
 [In 6]:
 
@@ -169,7 +172,8 @@ check_dup
 ```
 [Out 6]:
 
-<img width="93" height="35" alt="image" src="https://github.com/user-attachments/assets/1bd35029-5bea-4d66-9982-065d4a04d9da" />
+import pandas as pd
+
 
 #### 💡 **Data Understanding**
 
@@ -259,7 +263,8 @@ plt.show()
 ```
 [Out 8]:
 
-<img width="1221" height="689" alt="image" src="https://github.com/user-attachments/assets/903a24b8-592a-4420-b03a-477fa9f22310" />
+<img width="1007" height="565" alt="image" src="https://github.com/user-attachments/assets/f9517763-41b7-4528-b51f-8db8d5a1c3a0" />
+
 
 [In 9]:
 
@@ -270,7 +275,7 @@ for col,subplot in zip(cat, ax.flatten()):
 ```
 [Out 9]:
 
-<img width="1630" height="750" alt="image" src="https://github.com/user-attachments/assets/d53496bc-aa3b-40a7-adaa-45c763beb78e" />
+<img width="1454" height="657" alt="image" src="https://github.com/user-attachments/assets/c77dde7c-4f51-4d5b-aca1-97a9e61d8b78" />
 
 [In 10]:
 
@@ -291,7 +296,7 @@ for col, subplot in zip(cat, ax.flatten()):
 ```
 [Out 10]:
 
-<img width="1127" height="738" alt="image" src="https://github.com/user-attachments/assets/d9af9a93-b644-4127-83fd-446dddcf48b1" />
+<img width="1133" height="716" alt="image" src="https://github.com/user-attachments/assets/08acc40c-38d8-4a5e-b74f-3a4a998d9288" />
 
 - **Insights:**  
   - Certain categories in categorical variables show **higher churn rates**, highlighting target groups for retention strategies.  
